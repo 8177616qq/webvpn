@@ -18,7 +18,7 @@ for z in range(255):
             if len(t) < 2:
                 tmp[index] = '0' + t
         text = ''.join(tmp)
-#        full = 'https://vpn.zqu.edu.cn/' + info.scheme + '/' + meaningless_bullshit + text + info.path
+#        full = 'https://ip/' + info.scheme + '/' + meaningless_bullshit + text + info.path
         full = ''+info.scheme +'/'+ meaningless_bullshit + text + info.path
         if info.params:
             full += '?' + info.params
